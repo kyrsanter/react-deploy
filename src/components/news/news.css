@@ -1,0 +1,34 @@
+.new-item {
+    width: 100%;
+    border: 1px solid #ff00ff;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 0 0 25px -7px #ff00ff50;
+    max-height: 150px;
+}
+
+.new-item button{
+    place-self: flex-end;
+    background: #ff00ff50;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 1px solid #ff00ff50;
+    transition: all 0.5s ease;
+    margin: 15px;
+}
+
+.new-item button:hover{
+    background: none;
+    cursor: pointer;
+}
+
+.text-block {
+    place-self: flex-start;
+    width: 60%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.new-item img{
+    width: 25%;
+}

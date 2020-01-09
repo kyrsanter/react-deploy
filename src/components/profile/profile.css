@@ -1,0 +1,33 @@
+.profile {
+    margin-top: 20px;
+}
+
+.profile .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 35%;
+    height: 400px;
+}
+
+.profile-photo img{
+    max-width: 100%;
+}
+
+.profile-info {
+     width: 60%;
+ }
+
+.profile-info ul {
+    list-style-type: none;
+}
+
+.line {
+    margin: 10px 0;
+    background: #ff00ff;
+    height: 1px;
+    width: 100%;
+}
